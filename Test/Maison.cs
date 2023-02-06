@@ -15,5 +15,6 @@ namespace Test
         idMaison = 0;
         lvl = 0;
         valeurRecup = 0;
+
     }
 }

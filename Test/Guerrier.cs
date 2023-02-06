@@ -8,6 +8,7 @@ namespace Test
 {
     public class Guerrier:Personnages
     {
+
         public Guerrier (string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
             

@@ -8,6 +8,7 @@ namespace Test
 {
     public abstract class Entité
     {
+
         protected string nom;
         protected bool estMort = false;
         protected int PV;

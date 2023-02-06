@@ -8,6 +8,7 @@ namespace Test
 {
     public abstract class Personnages:Entité
     {
+
         private int exp;
         private int pvmax;
         private int pieceOr;

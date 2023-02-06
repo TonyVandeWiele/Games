@@ -8,6 +8,7 @@ namespace Test
 {
     internal class Monstre:Entité
     {
+
         public Monstre(string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
             

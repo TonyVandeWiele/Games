@@ -8,6 +8,7 @@ namespace Test
 {
     class Program
     {
+
         private int etage = 1;
         static void Main(string[] args)
         {
