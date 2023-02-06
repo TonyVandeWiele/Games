@@ -11,6 +11,7 @@ namespace Test
         public Archer(string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
 
+
         }
     }
 }
