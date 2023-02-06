@@ -8,12 +8,11 @@ namespace Test
 {
     internal class Monstre:Entité
     {
-        public Monstre(string nom): base(nom)
+        public Monstre(string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
-            this.nom=nom;
-            this.PV = 60;
-            this.degatMin = 5;
-            this.degatMax = 10;
+            
         }
+
+
     }
 }

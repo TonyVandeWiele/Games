@@ -8,11 +8,9 @@ namespace Test
 {
     public class Sorcier : Personnages
     {
-        public Sorcier(string nom) : base(nom)
+        public Sorcier(string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
-            PV = 80;
-            degatMin = 10;
-            degatMax = 25;
+            
         }
     }
 }

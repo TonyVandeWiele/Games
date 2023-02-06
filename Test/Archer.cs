@@ -8,11 +8,9 @@ namespace Test
 {
     public class Archer : Personnages
     {
-        public Archer(string nom) : base(nom)
+        public Archer(string nom, int lvl, int degatMax, int degatMin, int PV) : base(nom, lvl, degatMax, degatMin, PV)
         {
-            PV = 100;
-            degatMin = 15;
-            degatMax = 20;
+
         }
     }
 }
