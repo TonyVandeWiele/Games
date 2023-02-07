@@ -31,9 +31,9 @@ namespace Test
             {
                 pvmax += 10;
                 PV = pvmax;
-                lvl += 1;
+                Lvl += 1;
                 Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Bravo : Vous avez gagner un niveau (niveau "+lvl+")");
+                Console.WriteLine("Bravo : Vous avez gagner un niveau (niveau "+Lvl+")");
 
                 degatMin += 2;
                 degatMax += 2;
@@ -43,14 +43,14 @@ namespace Test
 
         public double expRequise()
         {
-            return Math.Round(4 * (Math.Pow(lvl, 3) / 5));
+            return Math.Round(4 * (Math.Pow(Lvl, 3) / 5));
         }
 
         public string Caracteristique()
         {
-            return "Caractéristiques actuels de " + this.nom + "\n" +
+            return "Caractéristiques actuels de " + this.Nom + "\n" +
                    "Points de vie : " + PV + "\n" +
-                   "Niveau :" + lvl + "\n" +
+                   "Niveau :" + Lvl + "\n" +
                    "Points d'expérience : (" + exp + "/" + expRequise() +")"+ "\n" +
                    "Dégats : [" + degatMin + ";" + degatMax + "]";
         }

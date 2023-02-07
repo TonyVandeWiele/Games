@@ -53,7 +53,7 @@ namespace Test
             bool suivant = false;
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\n\nUn " + monstre.getNom() + " vous attaque !\n");
+            Console.WriteLine("\n\nUn " + monstre.Nom + " vous attaque !\n");
             while (!monstre.EstMort())
             {
                 //Tour du monstre
@@ -78,7 +78,7 @@ namespace Test
             if (victoire)
             {
                 Console.Clear();
-                monPersonnages.gagnerExpOr(etage * monstre.getLvl() ,2 * monstre.getLvl());
+                monPersonnages.gagnerExpOr(etage * monstre.Lvl ,2 * monstre.Lvl);
 
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine();
