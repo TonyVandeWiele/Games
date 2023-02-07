@@ -9,7 +9,8 @@ namespace Test
     class Program
     {
 
-        private int etage = 1;
+        public static int etage = 1;
+
         static void Main(string[] args)
         {
             while (true)
@@ -179,7 +180,7 @@ namespace Test
         {
             Console.Clear();
             Console.WriteLine("test");
-            Maison.AfficheMaison();
+            //Maison.AfficheMaison();
             Console.ReadKey(true);
         }
     }
